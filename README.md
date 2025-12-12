@@ -1,4 +1,4 @@
-# 💰 PicPay-backend-j
+# 💰 PicPay-backend
 
 API REST simplificada inspirada no desafio técnico do **PicPay Backend**.  
 Esta aplicação backend foi construída com **Java & Spring Boot** para gerenciar usuários e transferências financeiras com regras de negócio típicas de uma plataforma de pagamentos. :contentReference[oaicite:1]{index=1}
@@ -50,3 +50,4 @@ PicPay-backend-j/
 ├── Dockerfile                  # Build da aplicação
 ├── pom.xml                     # Dependências Maven
 └── README.md
+
