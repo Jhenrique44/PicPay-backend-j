@@ -4,14 +4,14 @@ import java.math.BigDecimal;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 
-import com.javanauta.pp_transacao_simp.domain.entity.Account;
-import com.javanauta.pp_transacao_simp.domain.entity.Transactions;
-import com.javanauta.pp_transacao_simp.domain.entity.User;
-import com.javanauta.pp_transacao_simp.domain.entity.UserType;
 import com.javanauta.pp_transacao_simp.dto.TransactionDTO;
 import com.javanauta.pp_transacao_simp.infrastructure.clients.ClientNotification;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.Account;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.Transactions;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.User;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.UserType;
 import com.javanauta.pp_transacao_simp.infrastructure.exceptions.BadRequestException;
-import com.javanauta.pp_transacao_simp.repository.TransactionRepository;
+import com.javanauta.pp_transacao_simp.infrastructure.repository.TransactionRepository;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;

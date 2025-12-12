@@ -1,4 +1,4 @@
-package com.javanauta.pp_transacao_simp.domain.entity;
+package com.javanauta.pp_transacao_simp.infrastructure.domain.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -17,8 +17,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "users")
+@Entity(name = "users")
+@Table
 public class User {
 
     @Id

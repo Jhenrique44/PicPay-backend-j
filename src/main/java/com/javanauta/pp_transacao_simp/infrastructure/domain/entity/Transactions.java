@@ -1,4 +1,4 @@
-package com.javanauta.pp_transacao_simp.domain.entity;
+package com.javanauta.pp_transacao_simp.infrastructure.domain.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -21,8 +21,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "transaction")
+@Entity(name = "transaction")
+@Table
 @Builder
 public class Transactions {
 

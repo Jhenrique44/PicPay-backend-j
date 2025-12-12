@@ -1,4 +1,4 @@
-package com.javanauta.pp_transacao_simp.domain.entity;
+package com.javanauta.pp_transacao_simp.infrastructure.domain.entity;
 
 import java.math.BigDecimal;
 
@@ -10,6 +10,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -18,8 +19,9 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "account")
+@Entity(name = "account")
+@Table
+@Builder
 public class Account {
 
     @Id

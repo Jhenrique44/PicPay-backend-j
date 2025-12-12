@@ -8,11 +8,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import com.javanauta.pp_transacao_simp.domain.entity.Account;
-import com.javanauta.pp_transacao_simp.domain.entity.User;
-import com.javanauta.pp_transacao_simp.domain.entity.UserType;
-import com.javanauta.pp_transacao_simp.repository.AccountRepository;
-import com.javanauta.pp_transacao_simp.repository.UserRepository;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.Account;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.User;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.UserType;
+import com.javanauta.pp_transacao_simp.infrastructure.repository.AccountRepository;
+import com.javanauta.pp_transacao_simp.infrastructure.repository.UserRepository;
 
 @Configuration
 public class UserTablePopulate {

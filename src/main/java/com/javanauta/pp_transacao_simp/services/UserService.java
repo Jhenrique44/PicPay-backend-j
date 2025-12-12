@@ -2,9 +2,9 @@ package com.javanauta.pp_transacao_simp.services;
 
 import org.springframework.stereotype.Service;
 
-import com.javanauta.pp_transacao_simp.domain.entity.User;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.User;
 import com.javanauta.pp_transacao_simp.infrastructure.exceptions.UserNotFound;
-import com.javanauta.pp_transacao_simp.repository.UserRepository;
+import com.javanauta.pp_transacao_simp.infrastructure.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 

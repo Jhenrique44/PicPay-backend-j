@@ -2,8 +2,8 @@ package com.javanauta.pp_transacao_simp.services;
 
 import org.springframework.stereotype.Service;
 
-import com.javanauta.pp_transacao_simp.domain.entity.Account;
-import com.javanauta.pp_transacao_simp.repository.AccountRepository;
+import com.javanauta.pp_transacao_simp.infrastructure.domain.entity.Account;
+import com.javanauta.pp_transacao_simp.infrastructure.repository.AccountRepository;
 
 import lombok.RequiredArgsConstructor;
 
